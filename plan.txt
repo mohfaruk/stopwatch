@@ -1,0 +1,42 @@
+Stopwatch project:
+
+HTML
+...
+[x] Clear text that identifies clock and Stopwatch
+[x] Buttons allowing for watch to be stopped and restarted (Start and Stop)
+...
+
+CSS
+...
+[x] Simple background colour
+[] Clear and playful font within project
+[] Button edges should be rounded out and easy on eyes
+[] Illuminate numbers for visuals
+[] Stop button should light up yellow when clicked
+[] Start button should light up blue when clicked
+...
+
+JavaScript
+...
+Level 2
+[x] Add 1 to timerMins whenever timerSecs reaches 60 
+   (possible if/else)
+[x] A '0' should be included at the beginning of secs and minutes 
+   by default
+[x] There should be a milliseconds variable included 
+...
+Level 1
+[x] Applies current time to html page
+[x] Includes a default watch at 00:00:00
+   - Insert watch into DOM
+   - Watch should be able to start
+[x] When start button is clicked, function should execute watch 
+   to run
+[x] When stop button is clicked, function should execute watch
+   to stop
+[x] Reset Button to return timer back to default
+
+   Bugs:
+    - When resetting it continues before button was clicked [FIXED]
+    - After stopping it does not start again [FIXED]
+...
